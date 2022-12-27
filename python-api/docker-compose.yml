@@ -1,0 +1,15 @@
+version: '3.7'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: magenta
+    volumes:
+      - .:/app
+    ports:
+      - "5000:5000"
+    restart: unless-stopped
+    tty: true
+    privileged: true
