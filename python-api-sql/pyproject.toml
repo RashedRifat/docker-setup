@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "tmp"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+flask = "2.0.2"
+flask-cors = "3.0.10"
+google-api-python-client = "2.38.0"
+google-auth-oauthlib = "0.5.0"
+matplotlib = "3.5.1"
+protobuf = "3.19.4"
+pyjwt = "2.3.0"
+pytz = "2021.3"
+requests = "2.27.1"
+uwsgi = "2.0.20"
+wheel = "^0.38.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
